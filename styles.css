@@ -1,4 +1,4 @@
-body {
+body, .page {
     width: 100%;
     
 }
@@ -6,4 +6,16 @@ body {
 header {
     display: flex;
     font-size: 25px;
+}
+
+main { 
+    display: flex;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
 }
