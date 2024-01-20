@@ -1,17 +1,29 @@
-body, .page {
-    width: 100%;
+body {
+    margin: 0;
+}
+
+.page {
+    border: 1px solid red;
+    width: 1000px;
+    margin: 65px auto 0;
     
 }
+
+
+
+
+
+
+
+
+
 
 header {
     display: flex;
     font-size: 25px;
 }
 
-main { 
-    display: flex;
-    
-}
+
 
 footer {
     position: absolute;
