@@ -10,12 +10,22 @@ header {
 
 main { 
     display: flex;
+    
 }
 
-#footer {
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
     
 }
+
+.bolinhas {
+    justify-content: right;
+    margin-right: 0;
+
+}
+
