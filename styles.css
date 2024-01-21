@@ -1,14 +1,17 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-   
+    min-height: 100vh;
+
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);   
 }
 
 .page {
     /*border: 1px solid red; */
     width: 1000px;
-    margin: 65px auto 0;
+    margin: 0 auto;
     
+       
 }
 
 nav {
@@ -16,7 +19,9 @@ nav {
     justify-content: space-between;
     font-size: 25px;
     align-items: center;
-    margin-bottom: 55px;
+
+    margin-top: 65px;
+    margin-bottom: 114px;
 
 }
 
@@ -31,16 +36,20 @@ ul {
 
 ul a {
     color: 89C5CC;
+   
 }
 
 ul li :hover {
     font-weight: bold;
+    opacity: 1;
+    
 
 }
 
-a {
+ul li a {
     color: #1F1534;
     text-decoration: none;
+    opacity: 0.5;
 }
 
 ul li a {
@@ -48,11 +57,18 @@ ul li a {
     color: #1F1534;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 h1 {
     font-family: 'Mulish', sans-serif;
     font-size: 49px;
     line-height: 56px;
     color: #1F1534;
+    
 
     font-weight: normal;
     
@@ -63,19 +79,53 @@ h1 span {
     font-weight: bold;
 }
 
-p {
+section p {
     font-size: 14px;
     line-height: 28px;
     color: #7D7987;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 button {
+    color: white;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 
+    background: #69B99D;
+    border: 0;
+    padding: 14px 32px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    cursor: pointer;
+    
+} 
+
+button:hover {
+    background: #2c8163;
 }
 
 footer {
     position: absolute;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 20px;
+
+    text-align: center;
+    width: 100%;
+}
+
+/*footer {
+    
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -84,15 +134,19 @@ footer {
     font-size: 14px;
     line-height: 28px;
     
-}
+}*/
+
 
 footer a {
     font-weight: bold;
 }
 
-.bolinhas {
-    justify-content: right;
-    margin-right: 0;
 
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
+
+
 
